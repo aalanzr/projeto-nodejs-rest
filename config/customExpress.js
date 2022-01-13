@@ -4,7 +4,7 @@ const consign = require('consign'); /* Módulo para agrupar todas as rotas criad
 const bodyParser = require('body-parser');
 
 module.exports = () => {
-    //Configurando o servidor do jeito que queremos
+    //Configurando o servidor do jeito que queremosss
     const app = express();
 
     app.use(bodyParser.urlencoded({extended: true}));
